@@ -1,0 +1,21 @@
+{
+    "name": "callmeaf/sms",
+    "description": "Manage all sms services ( kavenegar, farazsms and etc ... )",
+    "type": "library",
+    "require": {
+        "callmeaf/base": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Callmeaf\\Sms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alikhoshkar",
+            "email": "alikhoshkar2000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
