@@ -14,4 +14,5 @@ interface SmsServiceInterface
     public function multiSend(array|string $mobiles,array|string $messages,array|string $senders): Response;
     public function sendViaPattern(string $pattern,string $mobile,array $values): Response;
     public function verifyOtpPattern(): string;
+    public function verifyForgotPasswordCodePattern(): string;
 }
